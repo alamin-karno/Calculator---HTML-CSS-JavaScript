@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="title">Calculator - HTML, CSS, JavaScript</div>
+
+            <table>
+                <tr>
+                    <td colspan="3"><input type="text" id="result"/></td>
+                    <td><input type="button" id="oparator" value="c" onclick="clr()"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="displayNum('7')"/></td>
+                    <td><input type="button" value="8" onclick="displayNum('8')"/></td>
+                    <td><input type="button" value="9" onclick="displayNum('9')"/></td>
+                    <td><input type="button" id="oparator" value="/" onclick="displayNum('/')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="displayNum('4')"/></td>
+                    <td><input type="button" value="5" onclick="displayNum('5')"/></td>
+                    <td><input type="button" value="6" onclick="displayNum('6')"/></td>
+                    <td><input type="button" id="oparator" value="*" onclick="displayNum('*')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="displayNum('1')"/></td>
+                    <td><input type="button" value="2" onclick="displayNum('2')"/></td>
+                    <td><input type="button" value="3" onclick="displayNum('3')"/></td>
+                    <td><input type="button" id="oparator" value="-" onclick="displayNum('-')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="0" onclick="displayNum('0')"/></td>
+                    <td><input type="button" value="." onclick="displayNum('.')"/></td>
+                    <td><input type="button" id="oparator" value="=" onclick="solve()"/></td>
+                    <td><input type="button" id="oparator" value="+" onclick="displayNum('+')"/></td>
+                </tr>
+            </table>
+
+        </div>
+        
+    </body>
+</html>

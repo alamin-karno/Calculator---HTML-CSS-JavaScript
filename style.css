@@ -1,0 +1,67 @@
+.title{ 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center; 
+    width: auto; 
+    color:green; 
+    padding: 5px;
+    border: solid black 2px; 
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+    
+
+table{
+    width: 35%;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input[type="button"] { 
+
+    background-color:rgb(49, 50, 51); 
+    color: rgb(255, 254, 254);
+    font-size: 20;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid rgb(99, 95, 95) 2px; 
+    width: 100%;
+} 
+
+input[id="oparator"]{
+
+    background-color: rgb(214, 210, 203);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid rgb(97, 96, 96) 2px; 
+        
+ }
+
+input[type="text"] { 
+    background-color:white; 
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid black 2px;
+    width: 95%;
+} 
+
+tr{
+    margin: 15px;
+}
